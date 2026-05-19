@@ -4,7 +4,11 @@
 
 ## Contexte
 
-Depuis le 1er janvier 2026, toute facture B2B entre assujettis belges doit être émise au format électronique structuré (Peppol BIS 3.0) via le réseau **Peppol**. Le hub belge est **Mercurius** (https://mercurius.belgium.be).
+Depuis le 1er janvier 2026, toute entreprise belge assujettie à la TVA a **deux obligations simultanées** :
+- **Émission** : émettre les factures B2B au format électronique structuré (Peppol BIS 3.0) via le réseau Peppol
+- **Réception** : être capable de **recevoir** des factures électroniques Peppol (inscription dans l'annuaire Peppol obligatoire)
+
+Le hub belge est **Mercurius** (https://mercurius.belgium.be). Choisir un prestataire Peppol est donc nécessaire pour **les deux** fonctions : émission ET réception.
 
 Contrairement à la France (système des Plateformes Agréées immatriculées par la DGFiP), en Belgique tout prestataire connecté au réseau Peppol peut émettre et recevoir des factures.
 

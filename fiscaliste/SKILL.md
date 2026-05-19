@@ -224,7 +224,11 @@ En Belgique, préciser impérativement : **commune de résidence** (additionnels
 ### 3. Calculer — Séquence IPP Standard
 
 1. Revenus bruts par catégorie (professionnels, immobiliers, mobiliers, divers)
-2. Application des déductions forfaitaires ou réelles (frais professionnels)
+   - **Salariés** : si le brut est donné, soustraire d'abord les cotisations ONSS salariales (~13,07 %) pour obtenir le revenu net imposable (case 250 de la fiche fiscale 281.10). C'est sur ce montant net-après-ONSS que s'applique le forfait frais.
+   - **Indépendants** : revenu net = bénéfice ou rémunération après cotisations sociales.
+2. Application des déductions forfaitaires ou réelles (frais professionnels) — **sur le revenu net après ONSS** :
+   - Forfait légal : 30 % du revenu net imposable, plafonné à 5 930 € (revenus 2025) — art. 51 CIR 92
+   - Option réels : si frais réels documentés > forfait (à l'avantage du contribuable)
 3. Déductions de la base imposable (pension alimentaire, épargne à long terme)
 4. **Base imposable nette** par contribuable
 5. Barème progressif (4 tranches) sur la base imposable

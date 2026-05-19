@@ -88,6 +88,8 @@ RECOMMANDÉ #1 : CONVOCATION (15 jours min avant l'AG)
 - [ ] Inscrire résolution : non-renouvellement syndic sortant
 - [ ] Inscrire résolution : élection syndic bénévole (majorité ordinaire)
 - [ ] Inscrire résolution : désignation signataires du compte bancaire ACP
+- [ ] ⚠️ **Joindre obligatoirement le projet de contrat/convention de syndic bénévole** à la convocation (art. 3.84 §3 Cc belge) — sans ce document joint, la décision AG est contestable
+      → Template : templates/contrat-syndic.md
 - [ ] Joindre au courrier :
       • Comptes + annexes + budget ordinaire
       • Procuration / pouvoir (templates/pouvoir-procuration.md)

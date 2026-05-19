@@ -77,6 +77,17 @@ Cela peut inclure :
 
 **Exception** : les frais d'action en justice engagée par l'ACP sont avancés par l'ACP, puis récupérés auprès du débiteur condamné.
 
+## Déchéance du Terme (art. 3.93 Cc belge)
+
+En cas de défaillance répétée ou grave d'un copropriétaire, le syndic peut demander au Juge de Paix de prononcer la **déchéance du terme** : toutes les charges futures et le solde du fonds de réserve deviennent immédiatement exigibles. C'est une mesure judiciaire qui oblige le copropriétaire défaillant à payer l'ensemble de sa dette actuelle ET prévisible, sans attendre chaque appel de fonds.
+
+**Conditions** :
+- Défaillance répétée malgré mise en demeure
+- Autorisation par l'AG ou le conseil de gérance
+- Demande devant le Juge de Paix (art. 3.90 et 3.93 Cc belge)
+
+**Effet** : toutes les créances de l'ACP sur ce copropriétaire, y compris celles non encore échues, deviennent immédiatement exigibles.
+
 ## Hypothèque Légale de l'ACP (art. 3.93 Cc belge)
 
 L'ACP bénéficie d'une **hypothèque légale** sur le lot de chaque copropriétaire, à concurrence de sa quote-part dans les dettes de l'ACP.

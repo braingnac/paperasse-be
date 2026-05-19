@@ -75,6 +75,12 @@ Lire le fichier comptable et vérifier :
 6. **Écritures équilibrées** : chaque écriture a Total Débit = Total Crédit
 7. **Pas d'écritures à montant nul** sauf mouvements de lettrage
 
+**Vérification ligne par ligne** : chaque écriture doit être contrôlée individuellement (ne pas se contenter des totaux) :
+- Numéro de compte valide dans la nomenclature PCMN (classes 1-7)
+- Sens normal du compte respecté (actif en débit, passif en crédit)
+- Libellé suffisamment descriptif (pièce justificative identifiable)
+- Montant cohérent avec la nature du compte
+
 **Script de contrôle** :
 ```
 Pour chaque écriture :
@@ -82,6 +88,7 @@ Pour chaque écriture :
   - Vérifier format date AAAAMMJJ
   - Vérifier numéro de compte PCMN valide (classes 1-7)
   - Vérifier pas de montant négatif injustifié
+  - Vérifier cohérence libellé / compte / montant
 ```
 
 ### Phase 3 : Contrôle du Bilan

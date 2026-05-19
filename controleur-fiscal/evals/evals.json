@@ -60,11 +60,11 @@
       "id": 4,
       "name": "franchise-tva-annualisation-premier-exercice",
       "prompt": "Simule un contrôle fiscal (SPF Finances) d'une SRL de conseil créée le 1er juillet 2025. L'exercice comptable est du 01/07/2025 au 31/12/2025 (184 jours). Le chiffre d'affaires facturé sur ce premier semestre est de 13 200 EUR. La société a appliqué la franchise de la taxe (art. 56bis CTVA) et n'a facturé aucune TVA à ses clients. Le vérificateur doit-il identifier un chef de redressement TVA ?",
-      "expected_output": "Le vérificateur applique la règle d'annualisation pour un premier exercice < 12 mois (art. 56bis §2 CTVA). CA annualisé = 13 200 × (365/184) ≈ 26 195 EUR, soit au-dessus du seuil de 25 000 EUR. La franchise ne s'appliquait pas. Chef de redressement : TVA de 21% due sur 13 200 EUR = 2 772 EUR + pénalités art. 70 §1 CTVA.",
+      "expected_output": "Le vérificateur applique la règle d'annualisation pour un premier exercice < 12 mois (art. 56bis §2 CTVA). CA annualisé = 13 200 × (365/184) ≈ 26 185 EUR, soit au-dessus du seuil de 25 000 EUR. La franchise ne s'appliquait pas. Chef de redressement : TVA de 21% due sur 13 200 EUR = 2 772 EUR + pénalités art. 70 §1 CTVA.",
       "files": [],
       "assertions": [
         "La règle d'annualisation pour un exercice < 12 mois est appliquée (art. 56bis §2 CTVA ou circulaire TVA)",
-        "Le CA annualisé est calculé : 13 200 × (365 / 184) ≈ 26 195 EUR",
+        "Le CA annualisé est calculé : 13 200 × (365 / 184) ≈ 26 185 EUR (résultat > 25 000 EUR, la valeur exacte peut varier légèrement selon l'arrondi)",
         "Ce CA annualisé dépasse le seuil de 25 000 EUR → la franchise de la taxe ne s'appliquait pas",
         "Un chef de redressement TVA est identifié (TVA 21% due sur les 13 200 EUR de CA)",
         "La TVA rappelée est chiffrée (13 200 × 21% = 2 772 EUR)",

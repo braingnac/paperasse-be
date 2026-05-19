@@ -157,7 +157,12 @@ Pour chaque catégorie de charges, vérifier les **conditions de déductibilité
 
 **Si franchise en base (art. 56bis CTVA) :**
 1. Seuil franchise en base : 25 000 € (depuis 2025)
-2. Annualisation si exercice < 12 mois
+2. **Annualisation obligatoire si exercice < 12 mois** (art. 56bis §2 CTVA) :
+   - Formule : CA annualisé = CA réalisé × (365 / nb jours d'exercice)
+   - Comparer le **CA annualisé** avec le seuil de 25 000 €
+   - ⚠️ **NE PAS** proratiser le seuil (erreur courante : 25 000 × nb jours / 365)
+   - Exemple : CA de 13 200 € sur 184 jours → CA annualisé = 13 200 × 365/184 ≈ 26 185 € > 25 000 € → franchise non applicable
+   - Chef de redressement si franchise appliquée à tort : TVA 21 % due sur le CA total + pénalités art. 70 §1 CTVA
 3. Mention sur les factures : « Régime particulier de franchise — TVA non applicable »
 4. Cessions d'immobilisations : soumises à TVA ou exonérées ?
 5. Prestations intra-UE / hors UE : autoliquidation (art. 51 §2 CTVA) ?
